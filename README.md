@@ -24,13 +24,13 @@ Proyek ini mencakup seluruh siklus hidup data science untuk menghasilkan solusi 
 ## Business Dashboard
 Sebuah business dashboard telah dikembangkan menggunakan Metabase untuk memberikan wawasan visual kepada manajemen Jaya Jaya Institut. Dashboard ini dirancang dengan alur cerita yang logis, mulai dari KPI tingkat atas hingga analisis penyebab utama.
 
-Dashboard ini memungkinkan pengguna untuk:
+**Dashboard ini memungkinkan pengguna untuk:**
 - Memantau metrik kunci seperti total mahasiswa dan tingkat dropout secara real-time.
 - Mengidentifikasi jurusan dengan tingkat dropout tertinggi.
 - Menganalisis korelasi antara performa semester satu dengan status akhir mahasiswa.
 - Mengeksplorasi pengaruh faktor non-akademik seperti status beasiswa dan tunggakan UKT.
 
-Berikut adalah tampilan dari dashboard yang telah dibuat:
+**Berikut adalah tampilan dari dashboard yang telah dibuat:**
 ![Business Dashboard](bimarakajati-dashboard.png)
 
 ## Menjalankan Sistem Machine Learning
@@ -46,7 +46,7 @@ Sebuah prototipe aplikasi berbasis web telah dibuat menggunakan Streamlit untuk 
     ```
 5. Aplikasi akan terbuka secara otomatis di browser Anda.
 
-Berikut adalah tampilan dari prototipe yang telah dibuat:
+**Berikut adalah tampilan dari prototipe yang telah dibuat:**
 ![Streamlit Prototipe](assets/screencapture-jaya-jaya-institut-streamlit-app-2025-06-10-01_05_43.png)
 
 **Akses Prototipe Online:**
