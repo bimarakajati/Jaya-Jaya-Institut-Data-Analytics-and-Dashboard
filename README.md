@@ -31,7 +31,7 @@ Dashboard ini memungkinkan pengguna untuk:
 - Mengeksplorasi pengaruh faktor non-akademik seperti status beasiswa dan tunggakan UKT.
 
 Berikut adalah tampilan dari dashboard yang telah dibuat:
-![bimarakajati-dashboard.png](bimarakajati-dashboard.png)
+![Business Dashboard](bimarakajati-dashboard.png)
 
 ## Menjalankan Sistem Machine Learning
 Sebuah prototipe aplikasi berbasis web telah dibuat menggunakan Streamlit untuk mempermudah penggunaan model machine learning yang telah dikembangkan. Aplikasi ini memungkinkan pengguna (seperti dosen wali atau bagian akademik) untuk memasukkan data seorang mahasiswa dan mendapatkan prediksi status akademiknya beserta tingkat kepercayaan model.
@@ -46,8 +46,11 @@ Sebuah prototipe aplikasi berbasis web telah dibuat menggunakan Streamlit untuk 
     ```
 5. Aplikasi akan terbuka secara otomatis di browser Anda.
 
+Berikut adalah tampilan dari prototipe yang telah dibuat:
+![Streamlit Prototipe](assets/screencapture-jaya-jaya-institut-streamlit-app-2025-06-10-01_05_43.png)
+
 **Akses Prototipe Online:**
-- Link Menuju Aplikasi Streamlit
+- [Link Menuju Aplikasi Streamlit](https://jaya-jaya-institut.streamlit.app/)
 
 ## Conclusion
 Proyek ini berhasil mengembangkan dua artefak utama yang saling melengkapi untuk mengatasi masalah dropout di Jaya Jaya Institut: sebuah dashboard untuk monitoring strategis dan sebuah aplikasi ML untuk prediksi individual.
