@@ -67,7 +67,7 @@ Proyek ini berhasil mengembangkan dua artefak utama yang saling melengkapi untuk
 
 1. **Faktor Prediktif Utama:** Analisis dan pemodelan menunjukkan bahwa performa akademik di semester pertama (terutama rasio mata kuliah yang disetujui terhadap yang diambil) adalah prediktor paling signifikan terhadap kemungkinan seorang mahasiswa untuk dropout.
 2. **Area Masalah Teridentifikasi:** Dashboard secara visual mengonfirmasi bahwa beberapa jurusan spesifik memiliki tingkat dropout yang jauh lebih tinggi dibandingkan yang lain, menandakan perlunya investigasi lebih mendalam pada level departemen.
-3. **Solusi Komprehensif:** Kombinasi dashboard Metabase dan aplikasi Streamlit memberikan solusi 360 derajat, memungkinkan manajemen untuk melihat tren makro dan memungkinkan staf akademik untuk melakukan intervensi pada level mikro.
+3. **Solusi Komprehensif:** Kombinasi dashboard Metabase dan aplikasi Streamlit memberikan solusi yang memungkinkan manajemen untuk melihat tren makro dan memungkinkan staf akademik untuk melakukan intervensi pada level mikro.
 
 ## Rekomendasi Action Items
 Berdasarkan kesimpulan di atas, berikut adalah beberapa rekomendasi tindakan yang dapat segera diimplementasikan oleh Jaya Jaya Institut:

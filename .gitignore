@@ -1,4 +1,6 @@
 backup/
 other/
-model.zip
+*.zip
 notebook.py
+metabase.db.mv.db
+bimarakajati-video.mp4
