@@ -3,10 +3,10 @@
 ## Business Understanding
 Jaya Jaya Institut adalah sebuah institusi pendidikan tinggi yang telah berdiri sejak tahun 2000 dan memiliki reputasi yang sangat baik dalam mencetak lulusan berkualitas. Meskipun demikian, institut menghadapi tantangan signifikan terkait tingginya jumlah mahasiswa yang tidak menyelesaikan pendidikannya atau dropout. Tingginya angka dropout ini tidak hanya mempengaruhi reputasi institusi, tetapi juga keberlanjutan operasionalnya. Oleh karena itu, diperlukan sebuah solusi berbasis data untuk mengatasi masalah ini.
 
-### Permasalahan Bisnis
+## Permasalahan Bisnis
 Permasalahan utama yang dihadapi Jaya Jaya Institut adalah **kurangnya sistem untuk mendeteksi secara dini mahasiswa yang berisiko dropout**. Tanpa deteksi proaktif, pihak institut kesulitan untuk memberikan bimbingan atau intervensi yang tepat waktu, sehingga banyak mahasiswa yang terlanjur berhenti di tengah jalan. Proyek ini bertujuan untuk menyelesaikan masalah tersebut dengan membangun sebuah sistem pendukung keputusan yang dapat mengidentifikasi mahasiswa berisiko.
 
-### Cakupan Proyek
+## Cakupan Proyek
 Proyek ini mencakup seluruh siklus hidup data science untuk menghasilkan solusi yang fungsional, dengan rincian sebagai berikut:
 1. **Analisis Data Eksploratif (EDA):** Memahami faktor-faktor utama yang berkorelasi dengan status dropout mahasiswa dari dataset yang disediakan.
 2. **Pengembangan Model Machine Learning:** Membangun dan melatih model klasifikasi untuk memprediksi status akademik mahasiswa (Dropout, Graduate, Enrolled).
@@ -14,7 +14,7 @@ Proyek ini mencakup seluruh siklus hidup data science untuk menghasilkan solusi 
 4. **Pengembangan Prototipe Aplikasi:** Membuat aplikasi web sederhana menggunakan Streamlit sebagai prototipe yang dapat digunakan untuk melakukan prediksi pada data mahasiswa individual.
 5. **Penyusunan Rekomendasi:** Memberikan rekomendasi strategis yang dapat ditindaklanjuti oleh manajemen berdasarkan temuan dari data.
 
-### Persiapan
+## Persiapan
 - **Sumber data:** Dataset performa mahasiswa yang disediakan oleh Dicoding, dapat diakses melalui tautan [ini](https://raw.githubusercontent.com/dicodingacademy/dicoding_dataset/refs/heads/main/students_performance/data.csv).
 - **Setup environment:** Untuk menjalankan proyek ini, Anda perlu menyiapkan environment Python. Pastikan semua library yang dibutuhkan telah terpasang dengan menjalankan perintah berikut:
     ```bash
@@ -24,19 +24,29 @@ Proyek ini mencakup seluruh siklus hidup data science untuk menghasilkan solusi 
 ## Business Dashboard
 Sebuah business dashboard telah dikembangkan menggunakan Metabase untuk memberikan wawasan visual kepada manajemen Jaya Jaya Institut. Dashboard ini dirancang dengan alur cerita yang logis, mulai dari KPI tingkat atas hingga analisis penyebab utama.
 
-**Dashboard ini memungkinkan pengguna untuk:**
+### Dashboard ini memungkinkan pengguna untuk:
 - Memantau metrik kunci seperti total mahasiswa dan tingkat dropout secara real-time.
 - Mengidentifikasi jurusan dengan tingkat dropout tertinggi.
 - Menganalisis korelasi antara performa semester satu dengan status akhir mahasiswa.
 - Mengeksplorasi pengaruh faktor non-akademik seperti status beasiswa dan tunggakan UKT.
 
-**Berikut adalah tampilan dari dashboard yang telah dibuat:**
+### Berikut adalah tampilan dari dashboard yang telah dibuat:
 ![Business Dashboard](bimarakajati-dashboard.png)
+
+### Akun Untuk Mengakses Dashboard Metabase
+Untuk mengakses dashboard di Metabase, ikuti langkah-langkah berikut:
+
+1. Buka browser dan akses URL Metabase: [https://localhost:3000](https://localhost:3000).
+2. Masukkan kredensial login berikut:
+    - **Email**: `root@mail.com`
+    - **Password**: `root123`
+3. Klik tombol **Sign in**.
+4. Setelah berhasil login dan diarahkan ke halaman utama Metabase. Akses dashboard melalui: **"Our analytics"** > **"Dashboard Monitoring Performa Akademik - Jaya Jaya Institut"**.
 
 ## Menjalankan Sistem Machine Learning
 Sebuah prototipe aplikasi berbasis web telah dibuat menggunakan Streamlit untuk mempermudah penggunaan model machine learning yang telah dikembangkan. Aplikasi ini memungkinkan pengguna (seperti dosen wali atau bagian akademik) untuk memasukkan data seorang mahasiswa dan mendapatkan prediksi status akademiknya beserta tingkat kepercayaan model.
 
-**Cara Menjalankan Prototipe Secara Lokal:**
+### Cara Menjalankan Prototipe Secara Lokal:
 1. Pastikan environment Anda sudah aktif (lihat bagian Persiapan).
 2. Pastikan semua file model (.pkl) berada di dalam direktori model/.
 3. Buka terminal atau command prompt, navigasikan ke direktori utama proyek.
@@ -46,10 +56,10 @@ Sebuah prototipe aplikasi berbasis web telah dibuat menggunakan Streamlit untuk 
     ```
 5. Aplikasi akan terbuka secara otomatis di browser Anda.
 
-**Berikut adalah tampilan dari prototipe yang telah dibuat:**
+### Berikut adalah tampilan dari prototipe yang telah dibuat:
 ![Streamlit Prototipe](assets/screencapture-jaya-jaya-institut-streamlit-app-2025-06-10-01_05_43.png)
 
-**Akses Prototipe Online:**
+### Akses Prototipe Online:
 - [Link Menuju Aplikasi Streamlit](https://jaya-jaya-institut.streamlit.app/)
 
 ## Conclusion
@@ -59,7 +69,7 @@ Proyek ini berhasil mengembangkan dua artefak utama yang saling melengkapi untuk
 2. **Area Masalah Teridentifikasi:** Dashboard secara visual mengonfirmasi bahwa beberapa jurusan spesifik memiliki tingkat dropout yang jauh lebih tinggi dibandingkan yang lain, menandakan perlunya investigasi lebih mendalam pada level departemen.
 3. **Solusi Komprehensif:** Kombinasi dashboard Metabase dan aplikasi Streamlit memberikan solusi 360 derajat, memungkinkan manajemen untuk melihat tren makro dan memungkinkan staf akademik untuk melakukan intervensi pada level mikro.
 
-### Rekomendasi Action Items
+## Rekomendasi Action Items
 Berdasarkan kesimpulan di atas, berikut adalah beberapa rekomendasi tindakan yang dapat segera diimplementasikan oleh Jaya Jaya Institut:
 
 1. Implementasi Sistem Peringatan Dini (Early Warning System):
