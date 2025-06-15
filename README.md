@@ -33,16 +33,6 @@ Sebuah business dashboard telah dikembangkan menggunakan Metabase untuk memberik
 ### Berikut adalah tampilan dari dashboard yang telah dibuat:
 ![Business Dashboard](bimarakajati-dashboard.png)
 
-### Akun Untuk Mengakses Dashboard Metabase
-Untuk mengakses dashboard di Metabase, ikuti langkah-langkah berikut:
-
-1. Buka browser dan akses URL Metabase: [https://localhost:3000](https://localhost:3000).
-2. Masukkan kredensial login berikut:
-    - **Email**: `root@mail.com`
-    - **Password**: `root123`
-3. Klik tombol **Sign in**.
-4. Setelah berhasil login dan diarahkan ke halaman utama Metabase. Akses dashboard melalui: **"Our analytics"** > **"Dashboard Monitoring Performa Akademik - Jaya Jaya Institut"**.
-
 ## Menjalankan Sistem Machine Learning
 Sebuah prototipe aplikasi berbasis web telah dibuat menggunakan Streamlit untuk mempermudah penggunaan model machine learning yang telah dikembangkan. Aplikasi ini memungkinkan pengguna (seperti dosen wali atau bagian akademik) untuk memasukkan data seorang mahasiswa dan mendapatkan prediksi status akademiknya beserta tingkat kepercayaan model.
 
